@@ -1,8 +1,8 @@
 package fujwt
 
 import (
-	"github.com/ErtugrulAcar/futil/fuconf"
-	"github.com/ErtugrulAcar/futil/furror"
+	"github.com/ertugrulacar/futil/fuconf"
+	"github.com/ertugrulacar/futil/furror"
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"
 )

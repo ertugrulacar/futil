@@ -2,7 +2,7 @@ package furesp
 
 import (
 	"fmt"
-	"github.com/ErtugrulAcar/futil/fuconf"
+	"github.com/ertugrulacar/futil/fuconf"
 	"github.com/valyala/fasthttp"
 	"time"
 )
