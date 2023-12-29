@@ -54,8 +54,8 @@ func (conf *config) GetJwtKeys() []string {
 	return conf.jwtKeys
 }
 
-func (conf *config) AddDefaultJwtKey(jwtKey string) *config {
-	conf.jwtKeys = append(conf.jwtKeys, jwtKey)
+func (conf *config) AddJwtKeys(jwtKey ...string) *config {
+	conf.jwtKeys = append(conf.jwtKeys, jwtKey...)
 	return conf
 }
 
