@@ -1,4 +1,4 @@
-module github.com/ErtugrulAcar/futil
+module github.com/ertugrulacar/futil
 
 go 1.19
 
